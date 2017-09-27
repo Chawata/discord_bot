@@ -133,7 +133,8 @@ bot.on('message', message => {
 		}
 		else
 		{
-			message.channel.send("Apprend à utiliser les bonnes commandes, abruti. C'est pas compliqué pourtant, si t'as un cerveau de merde utiliser !help !");
+			message.delete()
+			message.channel.send("Apprend à utiliser les bonnes commandes, abruti. C'est pas compliqué pourtant, si t'as un cerveau de merde utilise !help !");
 		}
     }
 });
