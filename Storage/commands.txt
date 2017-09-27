@@ -1,10 +1,5 @@
 Liste des commandes:
 
-!play - Suivi d'une url youtube, cette commande permet de lancer la vidéo dans le channel audio dans lequel vous êtes. 
-!ysearch - Prend l'argument en paramètres pour effectuer une recherche youtube et lire la première vidéo trouvée.
-!gay - Permet de lancer une vidéo youtube prédéfinie dans le channel audio dans lequel vous êtes.
-!connerie - Permet de lancer une vidéo youtube prédéfinie dans le channel audio dans lequel vous êtes.
-!defused - Permet de lancer une vidéo youtube prédéfinie dans le channel audio dans lequel vous êtes.
-!planted - Permet de lancer une vidéo youtube prédéfinie dans le channel audio dans lequel vous êtes.
+!play - Peut-être suivi d'une url youtube ou des arguments suivants (planted, defused, defusing, connerie, gay)
 !stop - Coupe la lecture en cours.
 !help - Affiche la liste des commandes disponibles.
