@@ -92,6 +92,10 @@ bot.on('message', message => {
 		        	{
 		        		stream = ytdl("https://www.youtube.com/watch?v=rEBjIfe7yjI", {filter : 'audioonly'})
 		        	}
+		        	else if(args[1] == "enculer")
+		        	{
+		        		stream = ytdl("https://www.youtube.com/watch?v=IubIdLhcQe8", {filter : 'audioonly'})
+		        	}
 		        	else
 		        	{
 		        		stream = ytdl(args[1], {filter : 'audioonly'})
