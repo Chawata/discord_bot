@@ -131,6 +131,10 @@ bot.on('message', message => {
 			message.delete()
 			message.channel.send(commandList);
 		}
+		else
+		{
+			message.channel.send("Apprend à utiliser les bonnes commandes, abruti. C'est pas compliqué pourtant, si t'as un cerveau de merde utiliser !help !");
+		}
     }
 });
 	
